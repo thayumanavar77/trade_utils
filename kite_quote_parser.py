@@ -1,6 +1,6 @@
 """
 Kite (Zerodha) WebSocket Quote message parser.
-
+ - Decode Zerodha WebSocket binary messages using Kite v3 spec (Copilot Assisted)
 Usage:
 - Call parse_websocket_message(raw_bytes_or_hex) to get a list of parsed packets.
 - Each packet is a dict with fixed quote fields and `depth` containing 5 bids + 5 asks.
